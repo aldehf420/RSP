@@ -18,6 +18,9 @@ import random
 
 kind = ["가위","바위","보"]
 board = [0 ,0 ,0] #승,무,패 를 기록하는 보드
+
+print("시작합니다")
+
 print("=======================================")
 for i in range(10): #10번 반복
     computer = random.randrange(3)
